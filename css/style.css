@@ -211,7 +211,6 @@ a:hover,
 }
 
 .page_pagination ul li a:hover,
-.bakTop:hover,
 .contact_form input[type="submit"]:hover,
 .price_item:hover>i,
 .price_item a:hover,
@@ -1037,13 +1036,17 @@ background-color: #ffffff;
 
 .contact_info {
     margin-left: 50px;
+    color: #ffffff;
 }
-
+.contact_info h4,.contact_info a i{
+    color: #ffffff;
+}
 .contact_info p {
     margin-bottom: 20px;
+    color: #ffffff;
 }
 .contact_info p a{
-    color:#000000;
+    color:#ffffff;
 }
 .contact_info p i {
     margin-right: 10px;
@@ -1087,9 +1090,17 @@ background-color: #ffffff;
     z-index: 999;
     font-size: 22px;
 }
-
+.bakTop i{
+    color: #075e54;
+}
+.bakTop a:hover{
+    color: #075e54;
+}
 .bakTop:hover {
-    color: #f6f6f6;
+    background-color: #075e54;
+}
+.bakTop:hover i{
+color: #ffffff;
 }
 
 
