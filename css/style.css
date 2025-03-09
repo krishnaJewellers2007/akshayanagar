@@ -128,7 +128,7 @@ a,
 }
 
 .section_header h2 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-weight: 700;
 }
 
@@ -211,6 +211,7 @@ a:hover,
 }
 
 .page_pagination ul li a:hover,
+.bakTop:hover,
 .contact_form input[type="submit"]:hover,
 .price_item:hover>i,
 .price_item a:hover,
@@ -218,9 +219,6 @@ a:hover,
     background: #000;
 }
 
-.skills .skill .skill-bar span {
-    background: rgba(0, 0, 0, .5);
-}
 
 .social_media a i,
 .banner_content a {
@@ -245,6 +243,7 @@ a:hover,
     position: fixed;
     width: 100%;
     z-index: 99;
+    background: #ffffff!important;
 }
 
 .logo {
@@ -342,7 +341,7 @@ a:hover,
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-.banner_content h4{
+.banner_content h1{
     font-size: 2.5rem;
     margin-bottom:15px;
 }
@@ -431,7 +430,7 @@ a:hover,
 }
 
 .about_inner p {
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 
 .social_media {
@@ -441,70 +440,23 @@ a:hover,
 .social_media a i {
     height: 35px;
     width: 35px;
-    border: 1px solid;
+    border: 1px solid #ffffff!important;
     border-radius: 50%;
     text-align: center;
     line-height: 35px;
     display: inline-block;
     margin-right: 5px;
+    color: #ffffff;
 }
 .social_media a i:hover{
-    background: #000;
-    color: #fff;
+    background: #ffffff;
+    color: rgb(200, 173, 118)!important;
+    border: 1px solid #ffffff!important;
 }
 
 .about_skill {
     padding-left: 25px;
 }
-
-.skills {
-    margin-top: 45px;
-}
-
-.skills .skill {
-    margin-bottom: 20px;
-}
-
-.skills .skill .skill-title {
-    margin-bottom: 8px;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.skills .skill .skill-bar {
-    width: 0;
-    height: 6px;
-    background: #f0f0f0;
-    transition: 1s cubic-bezier(1, 0, .5, 1);
-    -webkit-transition: 1s cubic-bezier(1, 0, .5, 1);
-    -ms-transition: 1s cubic-bezier(1, 0, .5, 1);
-}
-
-.skills.active .skill .skill-bar {
-    width: 100%;
-}
-
-.skills .skill .skill-bar span {
-    float: left;
-    width: 0%;
-    height: 6px;
-    position: relative;
-    transition: 1s cubic-bezier(1, 0, .5, 1);
-    -webkit-transition: 1s cubic-bezier(1, 0, .5, 1);
-    -ms-transition: 1s cubic-bezier(1, 0, .5, 1);
-}
-
-.skills .skill .skill-bar span b {
-    float: left;
-    width: 100%;
-    position: relative;
-    text-align: right;
-    opacity: 0;
-    font-size: 14px;
-    font-weight: 400;
-    top: 3px;
-}
-
 
 /* counter part css */
 
@@ -1036,14 +988,11 @@ background-color: #ffffff;
 
 .contact_info {
     margin-left: 50px;
-    color: #ffffff;
 }
-.contact_info h4,.contact_info a i{
-    color: #ffffff;
-}
+
 .contact_info p {
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #ffffff!important;
 }
 .contact_info p a{
     color:#ffffff;
@@ -1058,6 +1007,7 @@ background-color: #ffffff;
 
 .contact_info .social_media h4 {
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 
@@ -1079,7 +1029,7 @@ background-color: #ffffff;
 .bakTop {
     height: 40px;
     width: 40px;
-    background: #f6f6f6;
+    background:     #25d366;
     line-height: 40px;
     border-radius: 50%;
     position: fixed;
@@ -1091,16 +1041,10 @@ background-color: #ffffff;
     font-size: 22px;
 }
 .bakTop i{
-    color: #075e54;
-}
-.bakTop a:hover{
-    color: #075e54;
+    color: #fff;
 }
 .bakTop:hover {
-    background-color: #075e54;
-}
-.bakTop:hover i{
-color: #ffffff;
+    color: #f6f6f6;
 }
 
 
@@ -1493,9 +1437,11 @@ color: #ffffff;
 .banner_content.banner_content_px a:hover{
     color:#ddd;
 }
-
+.navbar{
+    background: #ffffff;
+}
 .logo{
-    width: 44px;
+    width: 54px;
     height: auto;
 }
 
@@ -1644,3 +1590,5 @@ h4.title {
     outline: none;
     box-shadow: none; /* Removes any shadow effect */
 }
+
+        #map { height: 500px; } /* Set map height */
