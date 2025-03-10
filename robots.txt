@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://krishnajewellers2007.github.io/akshayanagar/sitemap.xml
